@@ -2,7 +2,7 @@
 
 A module to generate a rainbox palette of colours, suitable for use in graphs. E.g.
 
-link:http://i.imgur.com/5S19c.png
+http://i.imgur.com/5S19c.png
 
 Based on the ideas presented in {Making annoying rainbows in javascript}[http://krazydad.com/tutorials/makecolors.php] by Jim Bumgardner.
 
