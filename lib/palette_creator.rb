@@ -5,7 +5,7 @@ require 'ostruct'
 # License::   GPL3
 #
 # Based on http://krazydad.com/tutorials/makecolors.php
-class PaletteCreator
+module PaletteCreator
 
   # Create a colour palette
   #
