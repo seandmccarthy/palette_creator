@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Palette creator by seandmccarthy</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Palette creator</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/seandmccarthy/palette_creator">View the Project on GitHub <small>seandmccarthy/palette_creator</small></a></p>
+        <ul>
+          <li><a href="https://github.com/seandmccarthy/palette_creator/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/seandmccarthy/palette_creator/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/seandmccarthy/palette_creator">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>= palette_creator</p>
+
+<p>A module to generate a rainbox palette of colours, suitable for use in graphs. E.g.</p>
+
+<p>link:<a href="http://i.imgur.com/5S19c.png">http://i.imgur.com/5S19c.png</a></p>
+
+<p>Based on the ideas presented in {Making annoying rainbows in javascript}[<a href="http://krazydad.com/tutorials/makecolors.php">http://krazydad.com/tutorials/makecolors.php</a>] by Jim Bumgardner.</p>
+
+<p>== Usage</p>
+
+<p>require 'palette_creator'</p>
+
+<p>palette = PaletteCreator::create(:count =&gt; 32) # Give a rainbox palette of 32 rgb values</p>
+
+<p># Convert the rgb triplets to hex
+  html_hex_palette = palette.map{|rgb| PaletteCreator::rgb_as_hex(rgb)}</p>
+
+<p>== Copyright</p>
+
+<p>Copyright (c) 2012 Sean McCarthy. See LICENSE.txt for
+further details.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/seandmccarthy">seandmccarthy</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
