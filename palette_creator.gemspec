@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sean McCarthy"]
-  s.date = "2012-05-29"
+  s.date = "2012-06-25"
   s.description = "Create rainbow colour palettes suitable for graphs"
   s.email = "sean@clanmccarthy.net"
   s.extra_rdoc_files = [
@@ -20,11 +20,13 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/palette_creator.rb",
+    "palette_creator.gemspec",
     "spec/palette_creator_spec.rb",
     "spec/spec_helper.rb"
   ]
